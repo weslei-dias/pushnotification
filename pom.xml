@@ -4,18 +4,18 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>easy-notes</artifactId>
+	<artifactId>onpushnotification</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>easy-notes</name>
-	<description>Rest API for a Simple Note Taking Application</description>
+	<description>Rest API for a Simple Push Notification</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.5.8.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
 
 	<properties>
@@ -49,6 +49,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok-maven</artifactId>
+			<version>1.16.6.1</version>
+			<type>pom</type>
+		</dependency>
+
 	</dependencies>
 
 	<build>
