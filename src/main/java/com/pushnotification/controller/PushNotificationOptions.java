@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class PushNotificationOptions {
 
     public static final String REST_API_KEY = "<YOUR REST API KEY>";
-    public static final String APP_ID = "YOUR APP ID";
+    public static final String APP_ID = "<YOUR APP ID>";
 
     public static void sendMessageToAllUsers(String message) {
         try {
