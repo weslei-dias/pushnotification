@@ -26,7 +26,7 @@ public class PushNotificationOptions {
 
             con.setRequestProperty("Content-Type", "application/json; charset=UTF-8");
             con.setRequestProperty("Authorization",
-                    REST_API_KEY);//REST API
+                    "Basic "+REST_API_KEY);//REST API
             con.setRequestMethod("POST");
 
             String strJsonBody = "{"
